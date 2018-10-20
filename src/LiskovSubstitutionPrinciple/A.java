@@ -15,6 +15,7 @@ public class A {
 }
 //类B实现a-b+100的功能
 class B extends  A{
+    @Override
     public int func1(int a, int b){
        return a-b;
     }
